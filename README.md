@@ -1,4 +1,4 @@
-# agentic-research-system
+# multiagent-research-system
 
 An autonomous multi-agent research system for deep, multi-step financial analysis. Decomposes complex research goals into dependency-aware task graphs, executes them through specialized agents with self-correction loops, and delivers quality-gated, fact-checked outputs — with a three-tier memory system that accumulates institutional knowledge across sessions.
 
@@ -113,7 +113,7 @@ PostgreSQL episodic store ─► LLM consolidation + long-term write
 ## Project Structure
 
 ```
-agentic-research-system/
+multiagent-research-system/
 ├── agents/
 │   ├── planner/          # ReAct + CoT task decomposition
 │   ├── retrieval/        # GraphRAG + web search tools
